@@ -17,6 +17,8 @@ body {
 h1, h2 { font-family: verdana, arial; padding: 10px; margin: 0 }
 h1 { font-size: large }
 
+img { width: 16px; }
+
 //#banner { padding: 15px; background-color: #06b; color: white; font-size: large; border-bottom: 1px solid #ccc;
 //    background: url(bg.gif) repeat-x; text-align: center }
 //#banner a { color: white; }
