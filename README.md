@@ -1,5 +1,5 @@
-Tabs Outliner for Firefox Addon
-===============================
+The Tabs Outliner Addon for Firefox
+===================================
 
 This addon aims to implement for firefox the feature provided by
 the [TabsOutliner plugin](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) in Chromium.
