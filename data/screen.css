@@ -24,5 +24,6 @@ img { width: 16px; }
 //#banner a { color: white; }
 
 //#main { padding: 1em; }
+img.favicon { width: 12px; height: 12px; }
 
 a img { border: none; }
