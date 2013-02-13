@@ -17,7 +17,8 @@ body {
 h1, h2 { font-family: verdana, arial; padding: 10px; margin: 0 }
 h1 { font-size: large }
 
-.active { font-weight: bold; background: #9999ff }
+.active { font-weight: bold; background: #9999ff; }
+.pinned { font-style: italic; }
 
 img.favicon { width: 12px; height: 12px; vertical-align: middle; }
 
