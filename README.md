@@ -7,7 +7,7 @@ the [TabsOutliner plugin](https://chrome.google.com/webstore/detail/tabs-outline
 Here is a screenshot of what it looks like at the time of the first
 revision in this repository:
 
-![Tabs Outliner Screenshot](http://m0g.net/ff_tabsoutliner.png)
+![Tabs Outliner Screenshot](http://m0g.net/TabsOutliner20120213.png)
 
 For the time being it is only a work in progress. That plugin is
 aimed to be compatible with Firefox 18+, and uses the jetpack/addon
@@ -15,13 +15,13 @@ API.
 
 TODO
 ----
-    - refresh the tree on every window and tabs events (new, close, ready, refresh, 
-        tab movement...),
-    - create new level of tree when opening tabs from a tab,
-    - open/close, destroy support from the tabs outliner panel,
-    - drag and drop support for the tabs in the tree,
-    - better UI style,
-    - sidebar integration
+ * `[x]` refresh the tree on every window and tabs events (new, close, ready, refresh, 
+     tab movement...),
+ * `[ ]` create new level of tree when opening tabs from a tab,
+ * `[ ]` open/close, destroy support from the tabs outliner panel,
+ * `[ ]` drag and drop support for the tabs in the tree,
+ * `[ ]` better UI style,
+ * `[ ]` sidebar integration
 
 If you want a taboutliner for firefox, don't hesitate to help me 
 implement that plugin and send patches!
