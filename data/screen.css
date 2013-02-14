@@ -20,6 +20,9 @@ h1 { font-size: large }
 .active { font-weight: bold; background: #9999ff; }
 .pinned { font-style: italic; }
 
+li ul li span:hover { background: #ff0000; }
+li span:hover { background: #ff0000; }
+
 img.favicon { width: 12px; height: 12px; vertical-align: middle; }
 
 a img { border: none; }
