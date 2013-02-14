@@ -16,9 +16,9 @@ API.
 TODO
 ----
  * `[x]` refresh the tree on every window and tabs events (new, close, ready, refresh, 
-     tab movement...),
+     tab movement...), _(in v0.4)_ 
+ * `[#]` select, open/close, destroy support from the tabs outliner panel,
  * `[ ]` create new level of tree when opening tabs from a tab,
- * `[ ]` open/close, destroy support from the tabs outliner panel,
  * `[ ]` drag and drop support for the tabs in the tree,
  * `[ ]` better UI style,
  * `[ ]` sidebar integration
