@@ -17,11 +17,11 @@ TODO
 ----
  * `[x]` refresh the tree on every window and tabs events (new, close, ready, refresh, 
      tab movement...), _(in v0.4)_ 
- * `[#]` select, open/close, destroy support from the tabs outliner panel,
- * `[ ]` create new level of tree when opening tabs from a tab,
+ * `[#]` _select_, open/_close_, destroy support from the tabs outliner panel,
  * `[ ]` drag and drop support for the tabs in the tree,
- * `[ ]` better UI style,
+ * `[ ]` create new level of tree when opening tabs from a tab,
  * `[ ]` sidebar integration
+ * `[ ]` better UI style,
 
 If you want a taboutliner for firefox, don't hesitate to help me 
 implement that plugin and send patches!
