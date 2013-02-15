@@ -1,27 +1,75 @@
-html, body {height:100%; margin: 0; padding: 0; }
+html, body {height:100%; margin: 0; padding: 0; border: 0; }
 
 html>body {
     font-size: 16px; 
     font-size: 68.75%;
     width: 100%; 
     height: 100%; 
+    background: #222 url("chrome://global/skin/media/imagedoc-darknoise.png");
+    color: #ccc;
 } /* Reset Base Font Size */
 
 body {
     font-family: Verdana, helvetica, arial, sans-serif;
     font-size: 68.75%;
-    background: #fff;
-    color: #333;
+    white-space: no-wrap;
+}
+
+.hovering_menu_container {
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    width: 98%;
+    background: rgba(36,145,255,.08);
+    visibility: visible;
+}
+.hovering_menu_panel {
+    pointer-events: none;
+    position: absolute;
+    display: inline-block;
+    right: -5px;
+    height: 31px;
+    padding: 4px;
+    padding-left: 23px;
+    padding-right: 7px;
+    background: url(images/hovering_menu_end.png) no-repeat right top, 
+                url(images/hovering_menu_start.png) no-repeat left top,
+                url(images/hovering_menu_body.png) repeat-x left top;
+    background-clip: border-box,border-box,content-box;
+}
+.hovering_menu_expand {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    pointer-events: auto;
+    cursor: pointer;
+    display: block;
+}
+.hovering_menu_close:hover {
+    background: transparent url(images/btn_close_hover.png) no-repeat;
+}
+.hovering_menu_close {
+    background: transparent url(images/btn_close_normal.png) no-repeat;
+    pointer-events: auto;
+    cursor: pointer;
+    display: inline-block;
+    width: 21px;
+    height: 24px;
+    right: 10px;
 }
 
 h1, h2 { font-family: verdana, arial; padding: 10px; margin: 0 }
 h1 { font-size: large }
 
-.active { font-weight: bold; background: #9999ff; }
+.active { font-weight: bold; 
+    background: rgba(36,145,255,.08);}
+
+//span { width: 100%; }
+
 .pinned { font-style: italic; }
 
-li ul li span:hover { background: #ff0000; }
-li span:hover { background: #ff0000; }
+//li ul li:hover { background: #ff0000; }
+//li span:hover { background: #ff0000; }
 
 img.favicon { width: 12px; height: 12px; vertical-align: middle; }
 
