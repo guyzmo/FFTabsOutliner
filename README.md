@@ -17,14 +17,28 @@ TODO
 ----
  * `[x]` refresh the tree on every window and tabs events (new, close, ready, refresh, 
      tab movement...), _(in v0.4)_ 
- * `[#]` _select_, open/_close_, destroy support from the tabs outliner panel,
- * `[ ]` drag and drop support for the tabs in the tree,
- * `[ ]` create new level of tree when opening tabs from a tab,
- * `[ ]` sidebar integration
- * `[ ]` better UI style,
+ * `[#]` _select_, open/_close_, destroy support from the tabs outliner panel, _(will be v0.5)_
+ * `[ ]` drag and drop support for the tabs in the tree, _(should be v0.6)_
+ * `[ ]` create new level of tree when opening tabs from a tab and support groups of windows, _(should be v0.7)_
+ * `[ ]` session state saving support, _(might be v0.8)_
+ * `[ ]` sidebar integration, _(may be v0.9)_
+ * `[ ]` better UI style, _(may be v0.10)_
+ * `[ ]` no bugs, no glitches _(v1.0)_
 
 If you want a taboutliner for firefox, don't hesitate to help me 
 implement that plugin and send patches!
+
+How it works
+============
+
+As of version v0.4, the algorithm of the addon is far from being good.
+At each event, it (re)builds a two level tree of all opened windows and tabs,
+and (re)generates the DOM tree in the tabsoutliner tab.
+Though, it is not time and space efficient, the result is still (astonishly) fast.
+
+For v0.7, the algorithmic model might have to be rewritten to support a n-level
+tree representing the tabs opened while browsing, and also the creation of groups
+of windows.
 
 How to test it and hack
 =======================
@@ -66,4 +80,32 @@ Code tree
     `-- test-main.js .....  bunch of tests for the tree.js file, that is failing
 
 ```
+
+License
+=======
+
+All the code of the addon is (c)2013, Bernard Guyzmo Pratz, under the WTFPL <http://wtfpl.net>.
+
+Some images are borrowed from the Chromium Tabs Outliner Addon, for development purposes. If
+the creator of those images does not want to share his images, I'll replace them before v1.0.
+
+The tree script is [jquery-treeview](https://github.com/jzaefferer/jquery-treeview) under the MIT and GPL
+licences. It will be certainly be replaced for v0.6 to have a more updated tree plugin, with enhanced drag'n drop support.
+
+```
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+Version 2, December 2004 
+
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+
+Everyone is permitted to copy and distribute verbatim or modified 
+copies of this license document, and changing it is allowed as long 
+as the name is changed. 
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+0. You just DO WHAT THE FUCK YOU WANT TO.
+```
+
 
