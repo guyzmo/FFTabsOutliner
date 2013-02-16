@@ -62,8 +62,8 @@ body {
 h1, h2 { font-family: verdana, arial; padding: 10px; margin: 0 }
 h1 { font-size: large }
 
-.active { font-weight: bold; 
-    background: rgba(36,145,255,.08);}
+.active { font-weight: bold; background: rgba(36,145,255,.08);}
+
 li ul li:hover { background: rgba(36,145,255,.08);}
 
 //span { width: 100%; }
