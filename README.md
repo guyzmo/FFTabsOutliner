@@ -7,7 +7,7 @@ the [TabsOutliner plugin](https://chrome.google.com/webstore/detail/tabs-outline
 Here is a screenshot of what it looks like at the time of the first
 revision in this repository:
 
-![Tabs Outliner Screenshot](http://m0g.net/TabsOutliner20120213.png)
+![Tabs Outliner Screenshot](http://m0g.net/TabsOutliner20120216.png)
 
 For the time being it is only a work in progress. That plugin is
 aimed to be compatible with Firefox 18+, and uses the jetpack/addon
