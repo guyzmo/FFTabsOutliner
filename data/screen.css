@@ -64,6 +64,7 @@ h1 { font-size: large }
 
 .active { font-weight: bold; 
     background: rgba(36,145,255,.08);}
+li ul li:hover { background: rgba(36,145,255,.08);}
 
 //span { width: 100%; }
 
