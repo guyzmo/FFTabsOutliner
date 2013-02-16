@@ -27,6 +27,7 @@ body {
     pointer-events: none;
     position: absolute;
     display: inline-block;
+    top: -8px;
     right: -5px;
     height: 31px;
     padding: 4px;
