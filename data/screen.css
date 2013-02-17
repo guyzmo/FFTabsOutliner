@@ -33,9 +33,9 @@ body {
     padding: 4px;
     padding-left: 23px;
     padding-right: 7px;
-    background: url(images/hovering_menu_end.png) no-repeat right top, 
-                url(images/hovering_menu_start.png) no-repeat left top,
-                url(images/hovering_menu_body.png) repeat-x left top;
+    background: rgba(36,145,255,.08) no-repeat right top, 
+                rgba(36,145,255,.08) no-repeat left top,
+                rgba(36,145,255,.08) repeat-x left top;
     background-clip: border-box,border-box,content-box;
 }
 .hovering_menu_expand {
@@ -47,15 +47,15 @@ body {
     display: block;
 }
 .hovering_menu_close:hover {
-    background: transparent url(images/btn_close_hover.png) no-repeat;
+    background: transparent url("chrome://global/skin/icons/close@2x.png") -64px 0;
 }
 .hovering_menu_close {
-    background: transparent url(images/btn_close_normal.png) no-repeat;
+    background: transparent url("chrome://global/skin/icons/close@2x.png") 0px 0;
     pointer-events: auto;
     cursor: pointer;
     display: inline-block;
-    width: 21px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     right: 10px;
 }
 

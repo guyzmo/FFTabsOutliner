@@ -1,13 +1,21 @@
 The Tabs Outliner Addon for Firefox
 ===================================
 
-This addon aims to implement for firefox the feature provided by
-the [TabsOutliner plugin](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) in Chromium.
+This addon aims to implement for Firefox the feature provided by
+the [TabsOutliner plugin](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) in Chromium, but
+in an Opensource License.
+
 
 Here is a screenshot of what it looks like at the time of the last 
 major change in this repository:
 
 ![Tabs Outliner Screenshot](http://m0g.net/TabsOutliner20120216.png)
+
+> N.B.: the author of Chrome's Tabs Outliner plugin, Vladyslav Volovyk, asked me to
+> remove any content containing his crafted materiels, such as the little menu handle 
+> I borrowed from him in the picture above. So, from now on, the repository has no 
+> more copyrighted materials (sorry dude), and the screenshot above will be replaced
+> as soon as I'll have new even cooler icons to show off!
 
 For the time being it is only a work in progress. That plugin is
 aimed to be compatible with Firefox 18+, and uses the jetpack/addon
@@ -85,9 +93,6 @@ License
 =======
 
 All the code of the addon is (c)2013, Bernard Guyzmo Pratz, under the WTFPL <http://wtfpl.net>.
-
-Some images are borrowed from the Chromium Tabs Outliner Addon, for development purposes. If
-the creator of those images does not want to share his images, I'll replace them before v1.0.
 
 The tree script is [jquery-treeview](https://github.com/jzaefferer/jquery-treeview) under the MIT and GPL
 licences. It will be certainly be replaced for v0.6 to have a more updated tree plugin, with enhanced drag'n drop support.
