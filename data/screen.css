@@ -49,6 +49,9 @@ body {
 .hovering_menu_close:hover {
     background: transparent url("chrome://global/skin/icons/close@2x.png") -64px 0;
 }
+.hovering_menu_close:activate {
+    background: transparent url("chrome://global/skin/icons/close@2x.png") -32px 0;
+}
 .hovering_menu_close {
     background: transparent url("chrome://global/skin/icons/close@2x.png") 0px 0;
     pointer-events: auto;
@@ -64,7 +67,7 @@ h1 { font-size: large }
 
 .active { font-weight: bold; background: rgba(36,145,255,.08);}
 
-li ul li:hover { background: rgba(36,145,255,.08);}
+//li ul li:hover { background: rgba(36,145,255,.08);}
 
 //span { width: 100%; }
 
