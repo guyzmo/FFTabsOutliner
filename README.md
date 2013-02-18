@@ -9,13 +9,13 @@ in an Opensource License.
 Here is a screenshot of what it looks like at the time of the last 
 major change in this repository:
 
-![Tabs Outliner Screenshot](http://m0g.net/TabsOutliner20120216.png)
+![Tabs Outliner Screenshot](http://m0g.net/TabsOutliner20120218.png)
 
-> N.B.: the author of Chrome's Tabs Outliner plugin, Vladyslav Volovyk, asked me to
-> remove any content containing his crafted materiels, such as the little menu handle 
-> I borrowed from him in the picture above. So, from now on, the repository has no 
-> more copyrighted materials (sorry dude), and the screenshot above will be replaced
-> as soon as I'll have new even cooler icons to show off!
+> N.B.: as the author of Chrome's Tabs Outliner plugin, Vladyslav Volovyk, asked me to
+> remove any content containing his crafted materials, the repository is now entirely 
+> free of materials under restrictive copyright. The picture above containing the previous
+> version of the code using one of his images, the image shown is now striked out to
+> avoid any conflict.
 
 For the time being it is only a work in progress. That plugin is
 aimed to be compatible with Firefox 18+, and uses the jetpack/addon
@@ -92,25 +92,27 @@ Code tree
 License
 =======
 
-All the code of the addon is (c)2013, Bernard Guyzmo Pratz, under the WTFPL <http://wtfpl.net>.
+All the code of the addon is (c)2013, Bernard Guyzmo Pratz, under the AGPLv3 <http://www.gnu.org/licenses/agpl-3.0.html>
 
 The tree script is [jquery-treeview](https://github.com/jzaefferer/jquery-treeview) under the MIT and GPL
 licences. It will be certainly be replaced for v0.6 to have a more updated tree plugin, with enhanced drag'n drop support.
 
 ```
-DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-Version 2, December 2004 
+Tabs Outliner Addon for Firefox
+Copyright (C)2013, Bernard `Guyzmo` Pratz <tabsoutliner at m0g dot net>
 
-Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
 
-Everyone is permitted to copy and distribute verbatim or modified 
-copies of this license document, and changing it is allowed as long 
-as the name is changed. 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
 
-DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
-
-0. You just DO WHAT THE FUCK YOU WANT TO.
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
 
 
