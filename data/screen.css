@@ -38,54 +38,64 @@ body {
     position: absolute;
     left: 0;
     width: 98%;
-    background: rgba(36,145,255,.08);
     visibility: visible;
+    background: rgba(37,144,255,.09);
 }
 .hovering_menu_panel {
     pointer-events: none;
     position: absolute;
     display: inline-block;
-    top: -8px;
-    right: -5px;
-    height: 31px;
-    padding: 4px;
+    //top: 0px;
+    right: -8px;
+    height: 15px;
+    padding: 0px;
     padding-left: 23px;
     padding-right: 7px;
-    background: rgba(36,145,255,.08) no-repeat right top, 
-                rgba(36,145,255,.08) no-repeat left top,
-                rgba(36,145,255,.08) repeat-x left top;
-    background-clip: border-box,border-box,content-box;
+    background: rgba(200,200,200,.09);
+    border-radius: 5px 0px 0px 5px;
+    //background: url(images/hovering_menu_end.png) no-repeat right top, 
+    //            url(images/hovering_menu_start.png) no-repeat left top,
+    //            url(images/hovering_menu_body.png) repeat-x left top;
+    //background: url(images/copy/hovering_menu_end.png) no-repeat right top, 
+    //            url(images/copy/hovering_menu_start.png) no-repeat left top,
+    //            url(images/copy/hovering_menu_body.png) repeat-x left top;
+    //background-clip: border-box,border-box,content-box;
 }
 .hovering_menu_expand {
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     pointer-events: auto;
     cursor: pointer;
     display: block;
 }
 .hovering_menu_close:hover {
-    background: transparent url("chrome://global/skin/icons/close@2x.png") -64px 0;
+    background: transparent url("chrome://global/skin/icons/close.png") 16px 0;
 }
 .hovering_menu_close:activate {
-    background: transparent url("chrome://global/skin/icons/close@2x.png") -32px 0;
+    background: transparent url("chrome://global/skin/icons/close.png") 8px 0;
 }
 .hovering_menu_close {
-    background: transparent url("chrome://global/skin/icons/close@2x.png") 0px 0;
+    background: transparent url("chrome://global/skin/icons/close.png") 0px 0;
     pointer-events: auto;
     cursor: pointer;
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 15px;
+    height: 15px;
     right: 10px;
 }
 
 h1, h2 { font-family: verdana, arial; padding: 10px; margin: 0 }
 h1 { font-size: large }
 
-.active { font-weight: bold; background: rgba(36,145,255,.08);}
+.active { 
+    font-weight: bold;
+    background: rgba(37,144,255,.30);
+    border-radius: 5px;
+    padding: 0px 4px 0px;
+}
 
-//li ul li:hover { background: rgba(36,145,255,.08);}
+li > div:hover { background: rgba(37,144,255,.09);}
 
 //span { width: 100%; }
 
@@ -94,6 +104,10 @@ h1 { font-size: large }
 //li ul li:hover { background: #ff0000; }
 //li span:hover { background: #ff0000; }
 
-img.favicon { width: 12px; height: 12px; vertical-align: middle; }
+img.favicon { 
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
 
 a img { border: none; }
