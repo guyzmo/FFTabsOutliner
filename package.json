@@ -2,8 +2,9 @@
     "name": "tabsoutliner", 
     "license": "MPL 2.0", 
     "author": "Bernard `Guyzmo` Pratz", 
-    "version": "0.4", 
+    "version": "0.5.0", 
     "fullName": "Tabs Outliner", 
-    "id": "jid1-YPQL2SJUDmTxLg", 
-    "description": "A new way of browsing the web, efficiently. GTD!"
+    "id": "jid1-YPQL2SJUDmTxLg@jetpack", 
+    "description": "A new way of browsing the web, efficiently. GTD!",
+	"main": "lib/main.js"
 }
