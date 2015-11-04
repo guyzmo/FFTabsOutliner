@@ -51,17 +51,12 @@ of windows.
 How to test it and hack
 =======================
 
-Download the SDK over [the addons page at Mozilla's](https://addons.mozilla.org/en-US/developers/builder).
-Follow the instructions over there, i.e.:
+To test:
 
 ```
-    % wget https://ftp.mozilla.org/pub/mozilla.org/labs/jetpack/jetpack-sdk-latest.zip
-    % unzip jetpack-sdk-latest.zip
-    % cd addon-sdk-1.13.1
-    % source bin/activate
-    % git clone https://github.com/guyzmo/FFTabsOutliner.git
-    % cd FFTabsOutliner
-    % cfx run
+	$ npm install jpm --global
+	$ cd FFTabsOutline (where package.json resides)
+	$ jpm run
 ```
 
 Code tree
