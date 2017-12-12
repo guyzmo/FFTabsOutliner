@@ -9,7 +9,7 @@ in an Opensource License.
 Here is a screenshot of what it looks like at the time of the last 
 major change in this repository:
 
-![Tabs Outliner Screenshot](http://m0g.net/TabsOutliner20120218.png)
+![Tabs Outliner Screenshot](http://www.m0g.net/TabsOutliner20120218.png)
 
 > N.B.: as the author of Chrome's Tabs Outliner plugin, Vladyslav Volovyk, asked me to
 > remove any content containing his crafted materials, the repository is now entirely 
