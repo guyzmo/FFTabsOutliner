@@ -1,3 +1,8 @@
+> [!NOTE]
+> This project has been unmaintained for 11 years.
+> I do not intent on reviving this project.
+> This project is now archived
+
 The Tabs Outliner Addon for Firefox
 ===================================
 
